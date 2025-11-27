@@ -120,7 +120,7 @@ int main () {
 	for (int i = n; i >= 1; i--) {
         if (a[i][capacity] != a[i - 1][capacity]) {
             knapsack[i - 1] = 1;
-            capacity -= w[i - 1];
+            capacity -= w[i - 1];			// Abdul Bari sir the GOATTTTTT
         }
     }
 	
